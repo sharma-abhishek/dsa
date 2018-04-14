@@ -1,3 +1,7 @@
+'''
+If you have a list of intervals, how would you merge them?
+E.g. [1, 3], [8, 11], [2, 6] => [1, 6], [8-11]
+'''
 a = [(1,3), (8,11), (2,6)]
 
 b = sorted(a, key=lambda x: x[0])
